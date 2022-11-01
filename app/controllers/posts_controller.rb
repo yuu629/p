@@ -22,7 +22,7 @@ class PostsController < ApplicationController
     :title, #タイトル
     :start_at, #開始日
     :end_at, #終了日
-    :is/all_day, #終日
+    :is_all_day, #終日
     :memo #スケジュールメモ
    ))
    if @post.save
@@ -50,7 +50,7 @@ class PostsController < ApplicationController
       :title, #タイトル
       :start_at, #開始日
       :end_at, #終了日
-      :is/all_day, #終日
+      :is_all_day, #終日
       :memo #スケジュールメモ
    )) 
    flash[:success] = "スケジュールを更新しました"
